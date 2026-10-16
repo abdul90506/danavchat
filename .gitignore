@@ -1,0 +1,13 @@
+**/node_modules/
+**/build/
+**/.gradle/
+**/local.properties
+**/wrangler.toml
+**/secrets.json
+**/.dev.vars
+**/*.jks
+**/keystore.properties
+.env
+
+# Local Cloudflare Wrangler state
+**/.wrangler/

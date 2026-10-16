@@ -1,0 +1,3 @@
+{ "name": "danav-chat-server", "private": true, "type": "module",
+  "scripts": { "deploy": "wrangler deploy" },
+  "devDependencies": { "wrangler": "^4.0.0", "@cloudflare/workers-types": "^4.20250101.0", "typescript": "^5.6.0" } }

@@ -1,0 +1,10 @@
+-keep class org.webrtc.** { *; }
+-dontwarn org.webrtc.**
+-keep class org.jni_zero.** { *; }
+-if class androidx.credentials.CredentialManager
+-keep class androidx.credentials.playservices.** { *; }
+-keep class com.google.android.libraries.identity.googleid.** { *; }
+-dontwarn org.conscrypt.**
+-dontwarn org.bouncycastle.**
+-dontwarn org.openjsse.**
+-keepattributes *Annotation*, Signature, InnerClasses, EnclosingMethod
